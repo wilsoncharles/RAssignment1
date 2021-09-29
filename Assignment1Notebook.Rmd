@@ -1,0 +1,25 @@
+---
+title: "SCEM Assignment 1"
+author: "Wilson Charles"
+date: "29/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+##Creating sequence
+x<-seq(0,20,0.01)
+print(x)
+
+##Creating Sin of X
+y<-sin(x)
+print(y)
+
+##Creating dataframe
+sin_df<-data.frame(x,y)
+print(head(sin_df,3))
+
+##Plotting Dataframe
+plot(sin_df)
+```
+
